@@ -116,7 +116,7 @@ font-weight: bold;
 	}
 }
 
-h3 {
+#third h2 {
 	text-align: left;
 	padding-left: 30px;
 	padding-top: 50px;
@@ -168,6 +168,29 @@ h3 {
 .fifth > div p {
 	background: lightgray;
 	border-radius: 25px;
-	
+
+
+}
+#skills {
+	background: linear-gradient(to right, #555555, #AAAAAA);
+}
+
+#frontend li {
+	color: white;
+list-style-type: none;
+font-size: 50px;
+background-color: #555555;
+		border-radius: 25px;
+
+}
+#skills h2{
+color: white;
+}
+#backend li {
+	color: white;
+list-style-type: none;
+font-size: 50px;
+background-color: #555555;
+		border-radius: 25px;
 
 }

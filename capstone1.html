@@ -35,7 +35,8 @@
 				</li>
 				<li>
 					<a href="#third">About</a></li>
-				
+				<li>
+					<a href="#skills">Skills</a></li>
 				<li>
 					<a href="#contact">Contact</a></li>
 				<li><a href="#socials">Socials</a></li>
@@ -69,7 +70,7 @@
  			
             <div id = "third" class = "min-vh-100 container-fluid text-center">
             	
-            		<h3>About Me</h3>
+            		<h2>About Me</h2>
 
                	<div class="row">
 
@@ -202,7 +203,7 @@
 				</div>
 			</div>
 			  	<!-- work carousel end-->
-			  	<div class="col-lg-4">
+			  	<div class="col-lg-4 d-flex justify-content-center align-items-center ">
 			  		<p>A former Equipment Engineer on a semiconductor company performing line sustaining activities, modifications, troubleshooting and machine improvements for production optimization</p>
 			  	</div>
 			</div>
@@ -215,7 +216,60 @@
  				</div>
                </div>
             </div>
- 
+ 	
+	<!-- Skills Start -->
+	<div id="skills" class = "text-dark min-vh-100 p-5">
+								<h2>Skills</h2>
+								<p>
+						  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Front-End Skills</a>
+						  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Back-End Skills</button>
+						</p>
+
+						<div class="row">
+						  <div class="col">
+						    <div class="collapse multi-collapse" id="multiCollapseExample1">
+						      <div class="card card-body">
+						        <ul><div id="frontend">
+						        	<li>HTML</li>
+						        	<li>CSS</li>
+						        	<li>Bootstrap</li>
+						        </div>
+						        </ul>
+						      </div>
+						    </div>
+						  </div>
+						  <div class="col">
+						    <div class="collapse multi-collapse" id="multiCollapseExample2">
+						      <div class="card card-body">
+						    	<ul><div id="backend">
+						        	<li>JavaScript</li>
+						        	<li>MongoDB</li>
+						        	<li>Node.js</li>
+						        	<li>Express.js</li>
+						        	<li>PHP</li>
+						        	<li>React</li>
+						        	<li>MySql</li>
+						        </div>
+						        </ul>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- projects start -->
+						<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+    Projects
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Coming Soon!</a>
+    <a class="dropdown-item" href="#">Coming Soon!</a>
+    <a class="dropdown-item" href="#">Coming Soon!</a>
+  </div>
+</div>
+						<!-- projects end -->
+				</div>
+	<!-- Skills End -->
 
 <!-- Contact Form Section Start -->
 				<div  id = "contact" class="min-vh-100 p-5">
@@ -264,7 +318,7 @@
 					<div class="row mt-3">
 
 
-					<div id= "icons" class = "p-3">
+					<div id= "icons" class = "p-3  d-sm-flex justify-content-center align-items-center ">
 
              
 						<a href="https://www.facebook.com/johnlouie.sequena/"><img width="150" src="./images/fb icon.png"/></a>	
@@ -302,27 +356,27 @@
 		ScrollReveal().reveal('.carousel-inner',
 		{
 			duration:2000,
-			origin:'left',
+			origin:'bottom',
 			distance: '300px',
 		});ScrollReveal().reveal('.fourth',
 		{
 			duration:2000,
 			delay:1000,
-			origin:'right',
+			origin:'top',
 			distance: '300px',
 		});
 		ScrollReveal().reveal('.fifth',
 		{
 			duration:1000,
 			delay:2000,
-			origin:'left',
+			origin:'bottom',
 			distance: '300px',
 		});
 		ScrollReveal().reveal('#contact',
 		{
 			duration:3000,
 			delay:1000,
-			origin:'bottom',
+			origin:'top',
 			distance: '500px',
 		});
 
@@ -330,7 +384,7 @@
 		{
 			duration:3000,
 			delay:1000,
-			origin:'right',
+			origin:'bottom',
 			distance: '500px',
 		});
 
