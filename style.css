@@ -144,7 +144,6 @@ font-weight: bold;
 	background: linear-gradient(to left, #555555, #AAAAAA);
 }
 #socials {background: linear-gradient(to right, #555555, #AAAAAA);
-	text-align: left;
 }
 #icons img {
 	border-radius: 50%;
@@ -203,6 +202,10 @@ background-color: #555555;
 	font-size: 50px;
 }
 #icons img{
-	
+
 	width: 150px;
+	}
+
+	#socials h2 {
+		color: white;
 	}
